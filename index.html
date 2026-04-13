@@ -11,7 +11,25 @@ nav { display:flex; justify-content:center; gap:30px; background:#fff; padding:1
 nav a { color:#003366; text-decoration:none; font-weight:bold;}
 nav a:hover { color:#0066cc;}
 header { text-align:center; padding:60px 20px; background:#e9f0f8;}
-.container { max-width:900px; margin:auto; padding:40px 20px;}
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.top-left h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #003366;
+}
+
+.top-left p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  max-width: 300px;
+  color: #555;
+} 
+.container { max-width:900px; margin:auto; padding:20px 20px;}
 .card { background:#fff; padding:20px; border-radius:8px; margin-top:20px; border:1px solid #ddd;}
 footer { text-align:center; padding:20px; background:#fff; border-top:1px solid #ddd;}
 </style>
@@ -28,10 +46,11 @@ footer { text-align:center; padding:20px; background:#fff; border-top:1px solid 
 <a href="contato.html">Contato</a>
 </nav>
 
-<header>
-<h1>Deivid Vasconcelos</h1>
-<p>Entre equações e existências, busco compreender o mundo, e a mim mesmo.</p>
-</header>
+<div class="top-left">
+  <h2>Deivid Vasconcelos</h2>
+  <p>Cadê essa thompson?.</p>
+</div>
+  
 
 <div class="container">
 <h2>Bem-vindo</h2>
